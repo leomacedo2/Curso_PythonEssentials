@@ -167,6 +167,9 @@ while opcao != 0:
                 print("Acesso liberado")
             else:
                 print("Acesso negado")
+        
+        case _:
+            print("Opção invalida!")
     
     print("")
     opcao_nova = input("Deseja ver outra questão? Digite 'n' para encerrar: ")
