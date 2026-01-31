@@ -1,7 +1,6 @@
+continuar = True
 
-opcao = ""
-
-while opcao != "0":
+while continuar :
     # Menu de questões
     print("")
     print("Questionário da Aula 2. Escolha uma opção: ")
@@ -141,7 +140,7 @@ while opcao != "0":
 
         case "13":
             valor_total = float(input("Digite o valor da compra: R$ "))
-            fidelidade = input("O Cliente tem cartão fidelidade? Digite sim ou nao : ")
+            fidelidade = input("O Cliente tem cartão fidelidade? Digite sim para resposta positiva  ")
 
             valor_total_descontado = valor_total - valor_total*0.20
 
@@ -152,7 +151,7 @@ while opcao != "0":
 
         
         case "14":
-            ensino_medio = input("O usuário está cursando ensino médio? Digite sim ou nao : ")
+            ensino_medio = input("O usuário está cursando ensino médio? Digite sim para resposta positiva  ")
             idade = int(input("Qual a idade do usuario? "))
 
             if (idade <=18 and ensino_medio == "sim"):
@@ -176,8 +175,7 @@ while opcao != "0":
     opcao_nova = input("Deseja ver outra questão? Digite 'n' para encerrar: ")
 
     if opcao_nova == "n":
-        opcao = "0"
+        continuar = False
         print("")
         print("Obrigado!")
         print("")
-    
