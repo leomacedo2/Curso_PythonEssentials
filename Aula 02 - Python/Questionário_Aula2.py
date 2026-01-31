@@ -1,6 +1,7 @@
 
-opcao = -1
-while opcao != 0:
+opcao = ""
+
+while opcao != "0":
     # Menu de questões
     print("")
     print("Questionário da Aula 2. Escolha uma opção: ")
@@ -20,11 +21,11 @@ while opcao != 0:
     print("14 - Seleção recrutamento de menores")
     print("15 - Variaveis booleanas")
     print("")
-    opcao = int(input("Qual resposta quer ver? "))
+    opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
 
     match opcao:
-        case 1:
+        case "1":
             inteiro1 = int(input("Qual o primeiro numero? "))
             inteiro2 = int(input("Qual o segundo numero? "))
             print("")
@@ -36,7 +37,7 @@ while opcao != 0:
             else :
                 print(f"{inteiro1} e {inteiro2} são iguais")
 
-        case 2:
+        case "2":
             ano = int(input("Digite seu ano de nascimento: "))
             print("")
             idade = 2026 - ano
@@ -44,7 +45,7 @@ while opcao != 0:
 
 
 
-        case 3:
+        case "3":
             inteiro = int(input("Digite um numero inteiro "))
             print("")
             print(f"O numero anterior a {inteiro} é {inteiro-1}")
@@ -52,7 +53,7 @@ while opcao != 0:
 
 
 
-        case 4:
+        case "4":
             horas = float(input("Quantas horas você trabalhou? "))
             print("")
 
@@ -61,20 +62,20 @@ while opcao != 0:
             print(f"Seu salário é: R$ {resultado:.2f}")
 
 
-        case 5:
+        case "5":
             num = int(input("Digite um numero "))
             print("")
             print(f"O quadrado desse numero é {num*num}")
 
         
-        case 6:
+        case "6":
             base = int(input("Digite a base "))
             potencia = int(input("Digite a potencia "))
             print("")
             print(f"O resultado é: {base**potencia}")
 
         
-        case 7:
+        case "7":
             idade = int(input("Digite sua idade "))
             print("")
             if idade >= 18:
@@ -83,7 +84,7 @@ while opcao != 0:
                 print("Não habilitada para dirigir")
         
         
-        case 8:
+        case "8":
             nome = input("Digite o nome do cliente ")
             compra = float(input("Digite o valor total da compra: R$ "))
             print("")
@@ -94,7 +95,7 @@ while opcao != 0:
             print(f"O valor total com o desconto ficou: R$ {compra:.2f}")
 
         
-        case 9:
+        case "9":
             nota1 = float(input("Digite a primeira nota "))
             nota2 = float(input("Digite a segunda nota "))
             nota3 = float(input("Digite a terceira nota "))
@@ -108,7 +109,7 @@ while opcao != 0:
                 print("Aluno Reprovado")
 
         
-        case 10:
+        case "10":
             inteiro = int(input("Digite um numero inteiro "))
 
             if inteiro % 2 == 0 :
@@ -117,7 +118,7 @@ while opcao != 0:
                 print(f"O numero {inteiro} é impar")
 
         
-        case 11:
+        case "11":
             senha_segura = "546987A"
 
             senha_digitada = input("Digite a senha de segurança: ")
@@ -129,7 +130,7 @@ while opcao != 0:
                 print("Senha não aprovada")
 
         
-        case 12:
+        case "12":
             idade = int(input("Qual é a sua idade? "))
 
             if idade >= 60:
@@ -138,7 +139,7 @@ while opcao != 0:
                 print("Trabalho Formal")
 
 
-        case 13:
+        case "13":
             valor_total = float(input("Digite o valor da compra: R$ "))
             fidelidade = input("O Cliente tem cartão fidelidade? Digite sim ou nao : ")
 
@@ -150,7 +151,7 @@ while opcao != 0:
                 print(f"Valor sem desconto! {valor_total:.2f}")
 
         
-        case 14:
+        case "14":
             ensino_medio = input("O usuário está cursando ensino médio? Digite sim ou nao : ")
             idade = int(input("Qual a idade do usuario? "))
 
@@ -159,7 +160,7 @@ while opcao != 0:
             else: 
                 print("Não atende aos critérios")
         
-        case 15:
+        case "15":
             crachaAtivo = True
             senhaCorreta = True
 
@@ -175,7 +176,7 @@ while opcao != 0:
     opcao_nova = input("Deseja ver outra questão? Digite 'n' para encerrar: ")
 
     if opcao_nova == "n":
-        opcao = 0
+        opcao = "0"
         print("")
         print("Obrigado!")
         print("")
