@@ -6,7 +6,7 @@ Repositório criado para atividades e projetos do curso do SENAI Python Essentia
 
 | Nº  | Nome do(s) Arquivo(s)                 | Descrição                                                               | Data       | Link            |
 |-----|---------------------------------------|-------------------------------------------------------------------------|------------|-----------------|
-| 01  | Q1.py / Q2.py / Q3.py / Q4.py / Q5.py | Questões iniciais do curso Pyhton Essentials                            | 24/01/2026 |[Aula 1](#aula-1)|
+| 01  | Q1.py / Q2.py / Q3.py / Q4.py / Q5.py | Questões iniciais do curso Pyhton Essentials                            | 24/01/2026 || [Aula 1](#aula-1-questões-de-aprendizado-à-linguagem-python) |
 | 02  | Q6.py                                 |                                                                         | 31/01/2026 |                 |
 
 
