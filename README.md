@@ -51,7 +51,7 @@ Questionário aplicado para aprender estruturas condicionais em Python
 **Comandos utilizados:**
 - Condicional com `if` , `elif` e `else`
 - Condicional com `match`, `case`
-- Operadores de comparação `==` `!=``>` `<` `>=` `<=`
+- Operadores de comparação `==` `!=` `>` `<` `>=` `<=`
 - Operadores lógicos `or` e `and` 
 - Formatar casa decimal com `:.2f`
 - EXTRA: repetição com `while`
