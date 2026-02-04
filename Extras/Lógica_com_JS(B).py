@@ -5,6 +5,8 @@ while continuar:
     print("Aplicando Lógica com JS(B) - Primeira lista")
     print("1 - Calculo de área de terreno")
     print("2 - Quantidade de ferraduras compradas para um haras")
+    print("3 - Terça parte de um numero dado")
+    print("4 - Dobro e o triplo de um numero")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -23,7 +25,21 @@ while continuar:
             ferraduras = cavalos * 4
             print(f"A quantidade de ferraduras necessárias é: {ferraduras}")
 
+        
+        case "3":
+            numero = float(input("Digite um número real qualquer: "))
+            terca_parte = numero / 3
+            print(f"A terça parte do número é: {terca_parte}")
 
+        
+        case "4":
+            numero = float(input("Digite um número: "))
+            dobro = numero * 2
+            triplo = numero * 3
+            print(f"O dobro do número é: {dobro}")
+            print(f"O triplo do número é: {triplo}")
+
+            
         case _:
             print("Opção inválida.")
     
