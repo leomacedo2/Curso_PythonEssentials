@@ -7,6 +7,10 @@ while continuar:
     print("2 - Quantidade de ferraduras compradas para um haras")
     print("3 - Terça parte de um numero dado")
     print("4 - Dobro e o triplo de um numero")
+    print("5 - Volume de uma caixa d'água cilíndrica")
+    print("6 - Conversão de valor de metros para cm, mm e km")
+    print("7 - Viagens de um motorista de Uber")
+    print("8 - Área de um triângulo retângulo lendo seus lados")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -39,7 +43,40 @@ while continuar:
             print(f"O dobro do número é: {dobro}")
             print(f"O triplo do número é: {triplo}")
 
-            
+        
+        case "5":
+            import math
+            raio = float(input("Digite o raio da base da caixa d'água (em metros): "))
+            altura = float(input("Digite a altura da caixa d'água (em metros): "))
+            volume = math.pi * (raio ** 2) * altura
+            print(f"O volume da caixa d'água é: {volume:.2f} metros cúbicos")
+
+
+        case "6":
+            metros = float(input("Digite o valor em metros: "))
+            centimetros = metros * 100
+            milimetros = metros * 1000
+            quilometros = metros / 1000
+            print("")
+            print(f"{metros} metros equivalem a:")
+            print(f"{centimetros} centímetros")
+            print(f"{milimetros} milímetros")
+            print(f"{quilometros} quilômetros")
+
+        
+        case "7":
+            viagens = int(input("Digite o número de viagens realizadas: "))
+            total_ganho = viagens * 6.80
+            print(f"O total ganho pelo motorista de Uber é: R$ {total_ganho:.2f}")
+
+        
+        case "8":
+            lado1 = float(input("Digite o valor do primeiro lado do triângulo retângulo: "))
+            lado2 = float(input("Digite o valor do segundo lado do triângulo retângulo: "))
+            area = (lado1 * lado2) / 2
+            print(f"A área do triângulo retângulo é: {area}")
+
+
         case _:
             print("Opção inválida.")
     
