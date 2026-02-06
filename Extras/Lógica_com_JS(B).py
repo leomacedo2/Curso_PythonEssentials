@@ -2,7 +2,7 @@ continuar = True
 
 while continuar:
     print("")
-    print("Aplicando Lógica com JS(B) - Primeira lista")
+    print("Aplicando Lógica com JS(B) - Segunda lista")
     print("1 - Calculo de área de terreno")
     print("2 - Quantidade de ferraduras compradas para um haras")
     print("3 - Terça parte de um numero dado")
