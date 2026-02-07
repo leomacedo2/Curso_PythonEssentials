@@ -10,6 +10,7 @@ Repositório criado para atividades e projetos do curso do SENAI Python Essentia
 |-----|----------------------------|-----------------------------------------------------------|------------|------|
 | 01  | Q1.py até Q6.py | Questões iniciais do curso Pyhton Essentials | 24/01/2026 | [Aula 1](#aula-1-questões-de-aprendizado-à-linguagem-python) |
 | 02  | Questionário_Aula2.py | 15 Questões envolvendo condicionais | 31/01/2026 | [Aula 2](#aula-2-estruturas-condicionais) |
+| 03  | Database/lista.xlsx , main.py | Dashboard e Análise de Dados com python | 07/02/2026 | [Aula3](#aula-3-dashboard-e-análise-de-dados) |
 
 
 ## Aulas
@@ -38,6 +39,7 @@ Algumas questões iniciais onde aprendi comandos iniciais de Python.
 
 ### Aula 2: Estruturas condicionais
 
+
 Questionário aplicado para aprender estruturas condicionais em Python
 
 **Principais aprendizados:**
@@ -56,6 +58,31 @@ Questionário aplicado para aprender estruturas condicionais em Python
 - Formatar casa decimal com `:.2f`
 - EXTRA: repetição com `while`
 - EXTRA: valores booleanos `True` `False`
+
+[🔝 Voltar ao topo](#topo)
+
+---
+
+### Aula 3: Dashboard e Análise de Dados
+
+Aplicação basica de Analise de Dados
+
+**Principais aprendizados:**
+- Aplicação de raspagem de dados com o Instant Data Scraper
+- Analise de dados com o Excel
+- Instalação de bibliotecas streamlit, pandas e openpyxl
+- Criação de um localhost com o Stremlit
+
+**Comandos utilizados:**
+- Instalação de Extensão `Instant Data Scraper`
+- Análise usando `Excel`
+- Importar bibliotecas usando `import` e renomeando com `as`
+- Comando no terminal para gerar um localhost: `streamlit run main.py`
+- Comandos do streamlit : `multiselect` `unique` `sum`
+- Padrão americano de valores em cash: `:,.2f`
+- Comando para filtro: `isin()`
+- Comando para media: `mean()`
+
 
 [🔝 Voltar ao topo](#topo)
 
