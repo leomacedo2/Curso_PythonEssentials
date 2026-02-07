@@ -10,7 +10,7 @@ Repositório criado para atividades e projetos do curso do SENAI Python Essentia
 |-----|----------------------------|-----------------------------------------------------------|------------|------|
 | 01  | Q1.py até Q6.py | Questões iniciais do curso Pyhton Essentials | 24/01/2026 | [Aula 1](#aula-1-questões-de-aprendizado-à-linguagem-python) |
 | 02  | Questionário_Aula2.py | 15 Questões envolvendo condicionais | 31/01/2026 | [Aula 2](#aula-2-estruturas-condicionais) |
-| 03  | Database/lista.xlsx , main.py | Dashboard e Análise de Dados com python | 07/02/2026 | [Aula3](#aula-3-dashboard-e-análise-de-dados) |
+| 03  | Database/lista.xlsx , main.py | Dashboard e Análise de Dados com python | 07/02/2026 | [Aula 3](#aula-3-dashboard-e-análise-de-dados) |
 
 
 ## Aulas
