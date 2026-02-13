@@ -6,10 +6,12 @@ while continuar:
     print("1 - Ler 10 numeros inteiros e exibir a soma de todos")
     print("2 - Formulário de aprovação de aluno")
     print("3 - Promoção de salário")
+    print("4 - Idade de um nadador e definir a categoria")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
     match opcao:
+
 
         case "1":
             soma = 0
@@ -17,6 +19,7 @@ while continuar:
                 numero = int(input(f"Digite o {i+1}º número inteiro: "))
                 soma += numero
             print(f"A soma dos números é: {soma}")
+
 
         case "2":
             nome = input("Digite o nome do aluno: ")
@@ -44,6 +47,26 @@ while continuar:
             print(f"Salário atual: R${salario_atual:.2f}")
             print(f"Aumento: R${aumento:.2f}")
             print(f"Salário novo: R${salario_novo:.2f}")
+
+
+        case "4":
+            idade = int(input("Digite a idade do nadador: "))
+            if 5 <= idade <= 7:
+                categoria = "Infantil A"
+            elif 8 <= idade <= 10:
+                categoria = "Infantil B"
+            elif 11 <= idade <= 13:
+                categoria = "Juvenil A"
+            elif 14 <= idade <= 17:
+                categoria = "Juvenil B"
+            elif idade >= 18:
+                categoria = "Adulto"
+            else:
+                categoria = "Sem categoria"
+            print("")
+            print(f"Idade: {idade} anos")
+            print(f"Categoria: {categoria}")
+
 
         case _:
             print("Opção inválida.")
