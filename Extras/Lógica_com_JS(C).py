@@ -7,6 +7,7 @@ while continuar:
     print("2 - Formulário de aprovação de aluno")
     print("3 - Promoção de salário")
     print("4 - Idade de um nadador e definir a categoria")
+    print("5 - Refrigerantes Meia-Cola")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -66,6 +67,15 @@ while continuar:
             print("")
             print(f"Idade: {idade} anos")
             print(f"Categoria: {categoria}")
+
+        
+        case "5":
+            lata = int(input("Digite a quantidade de latas de 350 ml foram compradas:"))
+            garrafa = int(input("Digite a quantidade de garrafas de 600 ml foram compradas:"))
+            garrafao = int(input("Digite a quantidade de garrafões de 2 litros foram comprados:"))
+            total_litros = (lata * 0.35) + (garrafa * 0.6) + (garrafao * 2)
+            print("")
+            print(f"Total de litros de refrigerante: {total_litros:.2f} litros")
 
 
         case _:
