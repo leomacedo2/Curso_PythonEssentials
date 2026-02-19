@@ -8,6 +8,7 @@ while continuar:
     print("3 - Promoção de salário")
     print("4 - Idade de um nadador e definir a categoria")
     print("5 - Refrigerantes Meia-Cola")
+    print("6 - Calculo de média de notas de alunos")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -77,6 +78,18 @@ while continuar:
             print("")
             print(f"Total de litros de refrigerante: {total_litros:.2f} litros")
 
+        
+        case "6":
+            nota1 = float(input("Digite a primeira nota: "))
+            nota2 = float(input("Digite a segunda nota: "))
+            media = (nota1 + nota2) / 2
+            if media >= 7:
+                print(f"A média é {media:.2f}. Aluno aprovado!")
+                print("Parabéns! Recebeu o certificado de aprovação.")
+            else:
+                print(f"A média é {media:.2f}. Aluno reprovado.")
+                print("Infelizmente, não recebeu o certificado de aprovação.")
+                
 
         case _:
             print("Opção inválida.")
