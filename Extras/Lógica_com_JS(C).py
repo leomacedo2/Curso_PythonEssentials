@@ -1,7 +1,7 @@
 continuar = True
 
 while continuar:
-    print("")
+    print("") 
     print("Aplicando Lógica com JS(C) - Terceira lista")
     print("1 - Ler 10 numeros inteiros e exibir a soma de todos")
     print("2 - Formulário de aprovação de aluno")
