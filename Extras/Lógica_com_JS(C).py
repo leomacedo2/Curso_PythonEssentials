@@ -10,6 +10,7 @@ while continuar:
     print("5 - Refrigerantes Meia-Cola")
     print("6 - Calculo de média de notas de alunos")
     print("7 - Fórmula de Bhaskara")
+    print("8 - Cálculo de IMC(Índice de Massa Corporal)")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -106,6 +107,21 @@ while continuar:
                 raiz1 = (-b + delta**0.5) / (2*a)
                 raiz2 = (-b - delta**0.5) / (2*a)
                 print(f"A equação possui duas raízes reais: {raiz1:.2f} e {raiz2:.2f}")           
+
+
+        case "8":
+            peso = float(input("Digite o peso em kg: "))
+            altura = float(input("Digite a altura em metros: "))
+            imc = peso / (altura ** 2)
+            print(f"O IMC é: {imc:.2f}")
+            if imc < 18.5:
+                print("Classificação: Abaixo do peso")
+            elif 18.5 <= imc < 25:
+                print("Classificação: Peso normal")
+            elif 25 <= imc < 30:
+                print("Classificação: Sobrepeso")
+            else:
+                print("Classificação: Obesidade")
 
 
         case _:
