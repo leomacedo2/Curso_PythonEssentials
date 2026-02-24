@@ -5,6 +5,7 @@ while continuar:
     print("Lista de Exercícios - Algoritmo")
     print("1 - Atribuição de variáveis")
     print("2 - Calculadora simples")
+    print("3 - Consumo de um carro")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -30,6 +31,16 @@ while continuar:
                 print(f"A divisão de {num1} por {num2} é: {num1 / num2:.2f}")
             else:
                 print("Divisão por zero não é permitida.")
+        
+
+        case "3":
+            distancia = float(input("Digite a distância percorrida (em km): "))
+            combustivel = float(input("Digite a quantidade de combustível consumida (em litros): "))
+            if combustivel != 0:
+                consumo = distancia / combustivel
+                print(f"O consumo do carro é: {consumo:.2f} km/l")
+            else:
+                print("Quantidade de combustível não pode ser zero.")
 
         case _:
             print("Opção inválida.")
