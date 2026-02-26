@@ -1,11 +1,12 @@
 continuar = True
-# sandbox: python
+
 while continuar:
     print("")
     print("Lista de Exercícios - Algoritmo")
     print("1 - Atribuição de variáveis")
     print("2 - Calculadora simples")
     print("3 - Consumo de um carro")
+    print("4 - Reprovação por falta")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -41,6 +42,20 @@ while continuar:
                 print(f"O consumo do carro é: {consumo:.2f} km/l")
             else:
                 print("Quantidade de combustível não pode ser zero.")
+
+
+        case "4":
+            aluno = input("Digite o nome do aluno: ")
+            horas_mes = int(input("Digite a quantidade de horas letivas no mês: "))
+            if horas_mes > 0:
+                horas_faltas = int(input("Digite a quantidade de horas que o aluno faltou no mês: "))
+                percentual_faltas = (horas_faltas / horas_mes) * 100 
+                if percentual_faltas > 25:
+                    print(f"O aluno {aluno} foi reprovado por falta. Percentual de faltas: {percentual_faltas:.2f}%")
+                else:
+                    print(f"O aluno {aluno} foi aprovado. Percentual de faltas: {percentual_faltas:.2f}%")
+            else:
+                print("Quantidade de horas letivas no mês não pode ser zero nem negativa.")  
 
         case _:
             print("Opção inválida.")
