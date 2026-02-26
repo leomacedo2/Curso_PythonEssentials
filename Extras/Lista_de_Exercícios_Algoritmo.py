@@ -1,5 +1,5 @@
 continuar = True
-
+# sandbox: python
 while continuar:
     print("")
     print("Lista de Exercícios - Algoritmo")
