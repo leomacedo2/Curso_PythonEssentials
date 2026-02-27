@@ -1,3 +1,6 @@
+import datetime
+from datetime import datetime
+
 continuar = True
 
 while continuar:
@@ -7,6 +10,7 @@ while continuar:
     print("2 - Calculadora simples")
     print("3 - Consumo de um carro")
     print("4 - Reprovação por falta")
+    print("5 - Quantos anos a pessoa tem informando apenas o ano?")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -53,9 +57,17 @@ while continuar:
                 if percentual_faltas > 25:
                     print(f"O aluno {aluno} foi reprovado por falta. Percentual de faltas: {percentual_faltas:.2f}%")
                 else:
-                    print(f"O aluno {aluno} foi aprovado. Percentual de faltas: {percentual_faltas:.2f}%")
+                    print(f"O aluno {aluno} não foi reprovado por falta. Percentual de faltas: {percentual_faltas:.2f}%")
             else:
-                print("Quantidade de horas letivas no mês não pode ser zero nem negativa.")  
+                print("Quantidade de horas letivas no mês não pode ser zero nem negativa.") 
+
+
+        case "5": 
+            nome = input("Digite o nome da pessoa: ")
+            ano_nascimento = int(input("Digite o ano de nascimento da pessoa: "))
+            ano_atual = datetime.now().year
+            idade = ano_atual - ano_nascimento
+            print(f"{nome} tem {idade} anos.")
 
         case _:
             print("Opção inválida.")
