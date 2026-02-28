@@ -1,0 +1,46 @@
+<!-- Digitar o simbolo de exclamação "!" e depois dar um enter. Ele cria a estrutura da pagina. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>FORMULÁRIO</h1>
+    <form action="/resultado" method="post">
+    
+    <label for="">Nome:</label><br>
+    <input type="text" name="nome"><br><br>
+
+    <label for="">E-mail:</label><br>
+    <input type="email" name="email"><br><br>
+    
+    <label for="">Curso:</label><br>
+    <select name="curso">
+        <option value="Python Essentials">Python Essentials</option>
+        <option value="Design UI/UX">Desging UI/UX</option>
+        <option value="Auxiliar Administrativo">Auxiliar Administrativo</option>
+    </select><br><br>
+    
+    <label for="">Sexo:</label><br>
+    <input type="radio" name="sexo" value="Masculino">Masculino
+    <input type="radio" name="sexo" value="Feminino">Feminino
+    <br><br>
+
+    <label for="">Turnos:</label><br>
+    <input type="checkbox" name="turno" value="Manhã">Manhã
+    <input type="checkbox" name="turno" value="Tarde">Tarde
+    <input type="checkbox" name="turno" value="Noite">Noite
+    <br><br>
+
+    <label for="">Observações:</label><br>
+    <textarea name="observacoes" cols="50" rows="10"></textarea>
+    <br><br>
+
+    <input type="submit" value="Salvar">
+    </form>
+    
+</body>
+</html>
