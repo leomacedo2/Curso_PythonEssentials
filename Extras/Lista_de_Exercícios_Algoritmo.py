@@ -11,6 +11,7 @@ while continuar:
     print("3 - Consumo de um carro")
     print("4 - Reprovação por falta")
     print("5 - Quantos anos a pessoa tem informando apenas o ano?")
+    print("6 - Adicionar 20% de um valor informado")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -69,6 +70,13 @@ while continuar:
             idade = ano_atual - ano_nascimento
             print(f"{nome} tem {idade} anos.")
 
+    
+        case "6":  
+            valor = float(input("Digite um valor: "))
+            percentual = valor * 0.20
+            print(f"20% desse valor é: {percentual:.2f}")
+            print(f"O valor total com os 20% adicionados é: {valor + percentual:.2f}")         
+            
         case _:
             print("Opção inválida.")
     
