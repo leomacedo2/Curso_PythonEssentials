@@ -12,6 +12,7 @@ while continuar:
     print("4 - Reprovação por falta")
     print("5 - Quantos anos a pessoa tem informando apenas o ano?")
     print("6 - Adicionar 20% de um valor informado")
+    print("7 - Distancia em Km para converter em Metros.")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -75,7 +76,13 @@ while continuar:
             valor = float(input("Digite um valor: "))
             percentual = valor * 0.20
             print(f"20% desse valor é: {percentual:.2f}")
-            print(f"O valor total com os 20% adicionados é: {valor + percentual:.2f}")         
+            print(f"O valor total com os 20% adicionados é: {valor + percentual:.2f}")
+
+
+        case "7":
+            distancia_km = float(input("Digite a distância em quilômetros: "))
+            distancia_metros = distancia_km * 1000
+            print(f"{distancia_km} km é igual a {distancia_metros:.2f} metros.")         
             
         case _:
             print("Opção inválida.")
