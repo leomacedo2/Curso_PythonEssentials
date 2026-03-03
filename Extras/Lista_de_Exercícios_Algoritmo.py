@@ -13,6 +13,7 @@ while continuar:
     print("5 - Quantos anos a pessoa tem informando apenas o ano?")
     print("6 - Adicionar 20% de um valor informado")
     print("7 - Distancia em Km para converter em Metros.")
+    print("8 - Celsius para Fahrenheit")      
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -84,6 +85,11 @@ while continuar:
             distancia_metros = distancia_km * 1000
             print(f"{distancia_km} km é igual a {distancia_metros:.2f} metros.")         
             
+        case "8":
+            celsius = float(input("Digite a temperatura em Celsius: "))
+            fahrenheit = 9 * celsius + 160
+            print(f"{celsius}°C é igual a {fahrenheit:.2f}°F")
+
         case _:
             print("Opção inválida.")
     
