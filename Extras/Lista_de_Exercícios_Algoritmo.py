@@ -13,7 +13,8 @@ while continuar:
     print("5 - Quantos anos a pessoa tem informando apenas o ano?")
     print("6 - Adicionar 20% de um valor informado")
     print("7 - Distancia em Km para converter em Metros.")
-    print("8 - Celsius para Fahrenheit")      
+    print("8 - Celsius para Fahrenheit")
+    print("9 - Valor com o percentual de aumento")    
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -89,6 +90,12 @@ while continuar:
             celsius = float(input("Digite a temperatura em Celsius: "))
             fahrenheit = 9 * celsius + 160
             print(f"{celsius}°C é igual a {fahrenheit:.2f}°F")
+
+        case "9":
+            valor = float(input("Digite um valor: "))
+            percentual = float(input("Digite o percentual de aumento (sem o símbolo %): "))
+            valor_aumentado = valor + (valor * percentual / 100)
+            print(f"O valor com o aumento de {percentual}% é: {valor_aumentado:.2f}")
 
         case _:
             print("Opção inválida.")
