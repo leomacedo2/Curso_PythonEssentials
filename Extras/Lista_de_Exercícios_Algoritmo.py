@@ -15,6 +15,7 @@ while continuar:
     print("7 - Distancia em Km para converter em Metros.")
     print("8 - Celsius para Fahrenheit")
     print("9 - Valor com o percentual de aumento")    
+    print("10 - Saldo final depois de 20 dias")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -96,6 +97,13 @@ while continuar:
             percentual = float(input("Digite o percentual de aumento (sem o símbolo %): "))
             valor_aumentado = valor + (valor * percentual / 100)
             print(f"O valor com o aumento de {percentual}% é: {valor_aumentado:.2f}")
+        
+        case "10":
+            saldo_inicial = float(input("Digite o saldo inicial: "))
+            for dia in range(1, 21):
+                saldo_inicial += saldo_inicial * 0.01
+                print(f"Saldo no dia {dia}: {saldo_inicial:.2f}")
+            print(f"O saldo final depois de 20 dias é: {saldo_inicial:.2f}")
 
         case _:
             print("Opção inválida.")
