@@ -5,7 +5,7 @@ continuar = True
 
 while continuar:
     print("")
-    print("Lista de Exercícios - Algoritmo")
+    print("Lista de Exercícios Parte 1 - Algoritmo")
     print("1 - Atribuição de variáveis")
     print("2 - Calculadora simples")
     print("3 - Consumo de um carro")
