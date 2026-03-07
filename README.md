@@ -12,6 +12,7 @@ Repositório criado para atividades e projetos do curso do SENAI Python Essentia
 | 02  | Questionário_Aula2.py | 15 Questões envolvendo condicionais | 31/01/2026 | [Aula 2](#aula-2-estruturas-condicionais) |
 | 03  | Database/lista.xlsx , main.py | Dashboard e Análise de Dados com python | 07/02/2026 | [Aula 3](#aula-3-dashboard-e-análise-de-dados) |
 | 04  | app.py formulario.html resultado.html | Introdução ao Flask | 28/02/2026 | [Aula 4](#aula-4-flask) |
+| 05  |  | Questões envolvendo laços de repetição | 07/03/2026 | [Aula 5](#aula-5-laços-de-repetição-com-python) |
 
 
 ## Aulas
@@ -96,16 +97,27 @@ Introdução ao Flask - Framework - Criação de Formulário
 **Principais aprendizados:**
 - Instalação do micro-framework Flask para renderização de sites.
 - Renderização de paginas html
-<!-- - Aplicação de raspagem de dados com o Instant Data Scraper
-- Analise de dados com o Excel
-- Instalação de bibliotecas streamlit, pandas e openpyxl
-- Criação de um localhost com o Stremlit -->
 
 **Comandos utilizados:**
 - Criação de ambiente virtual digitando no terminal: `python -m venv venv`
 - Comando para ativar no terminal: `venv/Scripts/activate`
 - Instalação do flask: `pip install flask`
 - Comandos do Flask: `.route` `render_template`
+
+
+[🔝 Voltar ao topo](#topo)
+
+---
+
+### Aula 5: Laços de Repetição com Python
+
+Laços de repetição - enquanto e para (while e for)
+
+**Principais aprendizados:**
+- Servem para executar um bloco de código várias vezes
+
+**Comandos utilizados:**
+- Principais comandos de repetição em Python: `while` e `for`
 
 
 [🔝 Voltar ao topo](#topo)
