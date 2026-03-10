@@ -2,7 +2,7 @@ continuar = True
 while continuar :
     # Menu de questões
     print("")
-    print("Questionário da Aula 5. Escolha uma opção: ")
+    print("Questionário da Aula 5. Laço de repetição 'for'. Escolha uma opção: ")
     print("1 - Algoritmo que imprime numeros de 1 a 50")
     print("2 - Numeros pares de 2 até 100")
     print("3 - Tabuada do 7")
