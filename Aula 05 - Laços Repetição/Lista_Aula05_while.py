@@ -21,8 +21,8 @@ while continuar :
                     print("Valor negativo digitado. Encerrando o programa.")
 
         case "2":
-            nota = -1
-            while nota < 0 or nota > 10:
+            nota = 0
+            while nota >= 0 and nota <= 10:
                 nota = float(input("Digite uma nota entre 0 e 10: "))
                 if nota < 0 or nota > 10:
                     print("Nota inválida. Programa encerrado.")
