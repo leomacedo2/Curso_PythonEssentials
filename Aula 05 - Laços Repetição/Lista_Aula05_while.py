@@ -7,6 +7,7 @@ while continuar :
     print("2 - Lendo notas de alunos enquanto ela for valida (entre 0 e 10)")
     print("3 - Numeros pares menores que um numero")
     print("4 - Ler valores enquanto a soma for menor que 100")
+    print("5 - Ler senhas até a senha correta")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -54,6 +55,15 @@ while continuar :
                     print("A soma foi menor que 100 então o programa encerrou")
                     continua = False
 
+        case "5":
+            senha = 0
+            while senha != "1234":
+                senha = input("Digite a senha: ")
+                if senha != "1234":
+                    print("Senha incorreta. Tente novamente.")
+            print("Senha correta! Obrigado")
+
+            
         case _:
             print("Opção invalida!")
     
