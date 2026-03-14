@@ -8,6 +8,7 @@ while continuar :
     print("3 - Numeros pares menores que um numero")
     print("4 - Ler valores enquanto a soma for menor que 100")
     print("5 - Ler senhas até a senha correta")
+    print("6 - Ler numeros inteiros até digitarem um numero negativo")
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
     print("")
@@ -63,7 +64,13 @@ while continuar :
                     print("Senha incorreta. Tente novamente.")
             print("Senha correta! Obrigado")
 
-            
+        case "6":
+            num = 0
+            while num >= 0:
+                num = int(input("Digite um numero inteiro positivo: "))
+                print(f"O numero é {num}")
+            print(f"O numero digitado é negativo. Então encerramos o programa.")
+
         case _:
             print("Opção invalida!")
     
