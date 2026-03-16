@@ -77,7 +77,7 @@ while continuar :
             while num >= 1:
                 print(num)
                 num -= 1
-
+ 
         case _:
             print("Opção invalida!")
     

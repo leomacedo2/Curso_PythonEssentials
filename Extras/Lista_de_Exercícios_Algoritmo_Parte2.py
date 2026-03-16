@@ -5,6 +5,7 @@ while continuar:
     print("Lista de Exercícios Parte 2 - Algoritmo")
     print("1 - Conversão de Dolares para Reais")
     print("2 - Quanto ganha motorista de uber")
+    print("3 - Identificar se é par ou impar")
 
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
@@ -21,6 +22,13 @@ while continuar:
         case "2":
             viagens = int(input("Digite o número de viagens realizadas hoje: "))
             print(f"O motorista de Uber ganhou R${viagens * 6.8:.2f} com as viagens realizadas.")
+        
+        case "3":
+            num = int(input("Digite um valor: "))
+            if num % 2 == 0:
+                print(f"O valor {num} é par")
+            else:
+                print(f"O valor é impar")
 
         case _:
             print("Opção inválida.")
