@@ -8,6 +8,7 @@ while continuar:
     print("3 - Identificar se é par ou impar")
     print("4 - Ler 10 cidades em uma unica variavel")
     print("5 - Ler 10 carros, placas e valores de diarias em uma unica variavel")
+    print("6 - Ler maioridade")
 
     print("")
     opcao = input("Qual resposta quer ver? Digite o numero: ")
@@ -41,12 +42,20 @@ while continuar:
 
         case "5":
             carros = ""
-            for i in range(1, 11):
-                carros = carros + "\n Carro " + input(f"Digite o nome do carro {i}: ") + ", "
+            for i in range(1, 3):
+                carros = carros + "\nCarro " + str(i) + ": " + input(f"Digite o nome do carro {i}: ") + ", "
                 carros = carros + "Placa: " + input(f"Digite a placa do carro {i}: ") + ", "
                 carros = carros + "Valor: " + "R$ " + str(float(input(f"Digite o valor da diaria do carro {i}: R$ ")))
             print("\nOs carros lidos foram:")
             print(carros)
+
+        case "6":
+            idade = int(input("Digite a idade: "))
+            if idade >= 18:
+                print("É maior de idade!")
+            else:
+                print("É menor de idade!")
+
 
 
         case _:
