@@ -73,7 +73,7 @@ while continuar:
             nomes_funcoes = ""
             idades_salarios = ""
 
-            for i in range(1, 3):
+            for i in range(1, 11):
                 print(f"\n--- Digite os dados do {i}º funcionário")
                 
                 nome = input("Nome: ")
