@@ -12,7 +12,7 @@ Repositório criado para atividades e projetos do curso do SENAI Python Essentia
 | 02  | Questionário_Aula2.py | 15 Questões envolvendo condicionais | 31/01/2026 | [Aula 2](#aula-2-estruturas-condicionais) |
 | 03  | Database/lista.xlsx , main.py | Dashboard e Análise de Dados com python | 07/02/2026 | [Aula 3](#aula-3-dashboard-e-análise-de-dados) |
 | 04  | app.py formulario.html resultado.html | Introdução ao Flask | 28/02/2026 | [Aula 4](#aula-4-flask) |
-| 05  |  | Questões envolvendo laços de repetição | 07/03/2026 | [Aula 5](#aula-5-laços-de-repetição-com-python) |
+| 05  | Lista_Aula05_for&while.py, Q1-5.py | Questões envolvendo laços de repetição | 07/03/2026 | [Aula 5](#aula-5-laços-de-repetição-com-python) |
 
 
 ## Aulas
